@@ -8,4 +8,5 @@ class Account {
 assert new Account( name: "current" )
 assert !new Account( name: "old", disabled: true )
 
+
 // while( account ), if( account ) etc.
